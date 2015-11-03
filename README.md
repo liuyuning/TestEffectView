@@ -1,4 +1,4 @@
 # TestEffectView
 Test UIVisualEffectView in diff args
 
-![TestEffectView](ScreenShot.png "RuntimeBrowser iPhone")
+![TestEffectView](ScreenShot.png "Effect screen shot")
