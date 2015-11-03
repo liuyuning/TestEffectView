@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image001" translatesAutoresizingMaskIntoConstraints="NO" id="ZlF-dg-zzc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xbc-Or-N9z">
+                                <rect key="frame" x="5" y="7" width="180" height="150"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="4Ay-uK-UZL">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Extra Light" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXZ-De-9aU">
+                                            <rect key="frame" x="8" y="8" width="83" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="ryp-cw-8k5">
+                                            <rect key="frame" x="40" y="25" width="100" height="100"/>
+                                        </imageView>
+                                        <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3ps-yK-thl">
+                                            <rect key="frame" x="8" y="114" width="123" height="29"/>
+                                            <segments>
+                                                <segment title="First"/>
+                                                <segment title="Second"/>
+                                            </segments>
+                                        </segmentedControl>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pld-WJ-6XO">
+                                <rect key="frame" x="189" y="7" width="180" height="150"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZQ4-i0-bPJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Light" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUg-8m-2SD">
+                                            <rect key="frame" x="8" y="8" width="39" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="omH-J2-vg9">
+                                            <rect key="frame" x="40" y="25" width="100" height="100"/>
+                                        </imageView>
+                                        <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Sz7-eY-zYI">
+                                            <rect key="frame" x="8" y="114" width="123" height="29"/>
+                                            <segments>
+                                                <segment title="First"/>
+                                                <segment title="Second"/>
+                                            </segments>
+                                        </segmentedControl>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="38z-2J-sAq">
+                                <rect key="frame" x="5" y="159" width="180" height="150"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="xOk-Pi-akf">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dark" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzU-oj-UPT">
+                                            <rect key="frame" x="8" y="8" width="36" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="e3b-mv-vzm">
+                                            <rect key="frame" x="40" y="25" width="100" height="100"/>
+                                        </imageView>
+                                        <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hNw-aE-gY0">
+                                            <rect key="frame" x="8" y="114" width="123" height="29"/>
+                                            <segments>
+                                                <segment title="First"/>
+                                                <segment title="Second"/>
+                                            </segments>
+                                        </segmentedControl>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FBU-lv-MeU">
+                                <rect key="frame" x="189" y="159" width="180" height="150"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="4rb-Jk-GU8">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b99-py-U5R">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="yJC-YJ-Cgt">
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Light" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiA-sL-XbE">
+                                                        <rect key="frame" x="133" y="25" width="39" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="ahR-Fr-gnO">
+                                                        <rect key="frame" x="31" y="25" width="100" height="100"/>
+                                                    </imageView>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Edu-If-2gg">
+                                                        <rect key="frame" x="8" y="114" width="123" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vibrancy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAr-6L-HxT">
+                                                        <rect key="frame" x="99" y="-1" width="79" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Light" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYH-Ob-LBJ">
+                                            <rect key="frame" x="10" y="-3" width="39" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b59-g3-QS7">
+                                <rect key="frame" x="5" y="317" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="PVn-88-AD5">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ySM-3Z-erZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="o3X-nu-8rb">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="nys-no-CbT">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ex Lgt-&gt;Ex Lgt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CS-Ov-82b">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cJC-fA-ggQ">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="extraLight"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wKO-Pd-K91">
+                                <rect key="frame" x="127" y="317" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="446-gX-MwK">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7U1-CP-Ip3">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="G7E-vt-XlC">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="JO1-V1-X3V">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ex Lgt-&gt;Lgt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEO-cK-DKS">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NdX-lg-oxR">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2IN-Lk-VgC">
+                                <rect key="frame" x="249" y="317" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SuQ-1f-sru">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XRf-GO-dgS">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ncH-RD-KVm">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="x4Y-uE-6QK">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ex Lgt-&gt;Dark" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4j-Cu-8pI">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="omO-zE-bsV">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="dark"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RQd-CU-LOC">
+                                <rect key="frame" x="5" y="420" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XaJ-tp-Eyx">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M7i-TB-k5f">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ffQ-uP-HPh">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="rSE-x8-lax">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lgt-&gt;Ex Lgt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3X-gu-OXO">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Vid-4Z-lnT">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="extraLight"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1bX-EV-M2m">
+                                <rect key="frame" x="127" y="420" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ada-Oe-DbQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQI-02-apO">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ltd-am-HeD">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="RPZ-MX-Up8">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lgt-&gt;Lgt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4V0-C3-RNZ">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DeD-cN-bhe">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="su7-kc-iyw">
+                                <rect key="frame" x="249" y="420" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nta-Ql-x5N">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EKT-wQ-tKK">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="T1g-Sg-CBY">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="TZn-Hi-c4X">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lgt-&gt;Dark" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nm-pQ-VM3">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qPk-2q-kQT">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="dark"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e4L-JP-iYZ">
+                                <rect key="frame" x="5" y="522" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="agi-gf-8mY">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SN7-5j-RRe">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="aKp-Rb-Isn">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="TL0-Qe-VeM">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dark-&gt;Ex Lgt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efE-4n-Oez">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Dc6-ao-gMG">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="extraLight"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GVC-z6-W06">
+                                <rect key="frame" x="127" y="522" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="tJO-M1-qRZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVg-tr-7lb">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="KwD-ZZ-cZO">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="xiy-FF-09S">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dark-&gt;Lgt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXg-NB-NU1">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="y7q-zV-FJd">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OyD-dL-PfS">
+                                <rect key="frame" x="249" y="522" width="120" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QVL-nR-cJ9">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kwA-cZ-kBl">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rqE-VP-NCm">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="HJj-Fi-nCs">
+                                                        <rect key="frame" x="30" y="20" width="60" height="60"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dark-&gt;Dark" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ME7-kU-QNm">
+                                                        <rect key="frame" x="3" y="0.0" width="115" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NOq-6Z-NTI">
+                                                        <rect key="frame" x="8" y="70" width="99" height="29"/>
+                                                        <segments>
+                                                            <segment title="First"/>
+                                                            <segment title="Second"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="dark"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="ZlF-dg-zzc" id="tM6-rm-Nlf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple" width="180" height="180"/>
+        <image name="image001" width="375" height="667"/>
+    </resources>
+</document>
